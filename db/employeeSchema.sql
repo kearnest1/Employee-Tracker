@@ -2,19 +2,21 @@ CREATE TABLE employees (
   id INTEGER PRIMARY KEY,
   first_name VARCHAR(30) NOT NULL,
   last_name VARCHAR(30) NOT NULL,
-  industry_connected BOOLEAN NOT NULL
+  employees_role VARCHAR(30) NOT NULL,
+  PRIMARY KEY (id)
 );
 
-CREATE TABLE titles (
+CREATE TABLE employees_role (
   id INTEGER PRIMARY KEY,
-  name VARCHAR(50) NOT NULL,
-  description TEXT
+  employees_role VARCHAR(30) NOT NULL,
+  salary DECIMAL,
+  PRIMARY KEY (id)
 );
 
-CREATE TABLE salaries (
+CREATE TABLE department (
   id INTEGER PRIMARY KEY,
-  name VARCHAR(50) NOT NULL,
-  description TEXT
+  department_name VARCHAR(30) NOT NULL,
+  PRIMARY KEY (id)
 );
 
 

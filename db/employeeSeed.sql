@@ -1,4 +1,4 @@
-INSERT INTO employees (first_name, last_name, industry_connected)
+INSERT INTO employees (first_name, last_name)
 VALUES
   ('Bella', 'Person', 1),
   ('Tom', 'Rocket', 1),
