@@ -1,20 +1,24 @@
-CREATE TABLE employees (
-  id INTEGER PRIMARY KEY,
-  first_name VARCHAR(30) NOT NULL,
-  last_name VARCHAR(30) NOT NULL,
-  industry_connected BOOLEAN NOT NULL
-);
+INSERT INTO employees (first_name, last_name, industry_connected)
+VALUES
+  ('Bella', 'Person', 1),
+  ('Tom', 'Rocket', 1),
+  ('Lance', 'Rover', 1),
+  ('Ashley', 'House', 1),
+  ('Kim', 'Normal', 1);
 
-CREATE TABLE titles (
-  id INTEGER PRIMARY KEY,
-  name VARCHAR(50) NOT NULL,
-  description TEXT
-);
+  INSERT INTO department (department_name)
+VALUES
+  ('Engineering'),
+  ('Sales'),
+  ('Legal'),
+  ('Management');
 
-CREATE TABLE salaries (
-  id INTEGER PRIMARY KEY,
-  name VARCHAR(50) NOT NULL,
-  description TEXT
-);
+  INSERT INTO employee_role (employee_role, salary)
+VALUES
+  ('Engineer', '85000'),
+  ('Sales_person', '56000'),
+  ('Sales_lead', '70000'),
+  ('Manager', '96000'),
+  ('Lawyer', '95000');
 
 
