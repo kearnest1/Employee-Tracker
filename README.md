@@ -1,13 +1,15 @@
 # Employee-Tracker
 
 ## Description
+Create a command line application to manage a company's employee database.
 
 ## Link to video/screen-castify
 
 ## Installation
 Created with:
-* MySQL2
+* MySQL
 * Inquirer package
+* Node.js
 
 ## Contributing
 *Kristin Earnest*
