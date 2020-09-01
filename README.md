@@ -4,7 +4,7 @@
 Create a command line application to manage a company's employee database.
 
 ## Link to video/screen-castify
-<iframe src="https://drive.google.com/file/d/1ONSAxXqaCfY7T1XU4EhZpVNxcU35oMQV/preview" width="640" height="480"></iframe>
+"https://drive.google.com/file/d/1ONSAxXqaCfY7T1XU4EhZpVNxcU35oMQV/preview"
 
 ## Installation
 Created with:
